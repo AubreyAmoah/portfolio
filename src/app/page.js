@@ -40,7 +40,7 @@ const skills = [
   "JavaScript",
   "React",
   "Node.js",
-  "Python",
+  "C",
   "SQL",
   "AWS",
   "Docker",
@@ -58,7 +58,7 @@ const pcBuilds = [
     ],
     description:
       "A high-end gaming build with custom water cooling and RGB synchronization.",
-    image: "/api/placeholder/800/600",
+    image: `/cyber.webp`,
   },
   {
     title: "Minimal Workstation",
@@ -69,7 +69,7 @@ const pcBuilds = [
       "4TB NVMe RAID",
     ],
     description: "Clean, minimalist build focused on performance and silence.",
-    image: "/api/placeholder/800/600",
+    image: `/minimalistic.webp`,
   },
   {
     title: "SFF Gaming Rig",
