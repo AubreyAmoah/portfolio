@@ -80,7 +80,7 @@ const pcBuilds = [
       "1TB NVMe SSD",
     ],
     description: "Compact powerhouse in a sub-10L case with custom cables.",
-    image: "/api/placeholder/800/600",
+    image: `/sff.webp`,
   },
 ];
 
@@ -265,12 +265,12 @@ const Portfolio = () => {
       <section className="container mx-auto px-4 py-16 bg-primary/5">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4 animate-fade-in">
-            Oh! I build PCs too
+            Oh! I build PCs too 😊
           </h2>
           <p className="text-muted-foreground mb-8 animate-fade-in">
-            Beyond software development, I'm passionate about building custom
-            PCs. Here are some of my recent builds combining performance and
-            aesthetics.
+            Beyond software development, I have a passion for building custom
+            PCs, combining high performance with sleek aesthetics. Here are some
+            of my recent builds, designed for both power and style. 🚀🔥
           </p>
 
           <Card className="relative overflow-hidden group">
