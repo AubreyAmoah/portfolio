@@ -62,6 +62,13 @@ const projects = [
     link: "#",
     github: "https://github.com/AubreyAmoah/Authorization",
   },
+  {
+    title: "Network Adapter Lister",
+    description: "List network adapters on your system",
+    tags: ["C", "Networking"],
+    link: "#",
+    github: "https://github.com/AubreyAmoah/network_adapter_lister",
+  },
 ];
 
 const skills = [
@@ -233,11 +240,24 @@ const Portfolio = () => {
             web applications. Currently focused on creating accessible,
             human-centered digital experiences.
           </p>
-          <Button className="mr-4">
+          <Button
+            onClick={() =>
+              (window.location.href = "mailto:aoamoah98@gmail.com")
+            }
+            className="mr-4"
+          >
             <Mail className="mr-2 h-4 w-4" />
             Get in Touch
           </Button>
-          <Button variant="outline">View Resume</Button>
+          <Button
+            onClick={() =>
+              (window.location.href =
+                "https://drive.google.com/file/d/1c69VrD5uITxJrN5RPD9UvZ5uSINFTERk/view?usp=drive_link")
+            }
+            variant="outline"
+          >
+            View Resume
+          </Button>
         </div>
       </section>
 
@@ -442,7 +462,7 @@ const Portfolio = () => {
       <footer className="border-t">
         <div className="container mx-auto px-4 py-8">
           <p className="text-center text-muted-foreground">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Aubrey Amoah. All rights reserved.
           </p>
         </div>
       </footer>
