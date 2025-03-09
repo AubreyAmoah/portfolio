@@ -21,18 +21,46 @@ import {
 
 const projects = [
   {
-    title: "Project 1",
-    description: "A web application built with React and Node.js",
-    tags: ["React", "Node.js", "MongoDB"],
-    link: "https://project1.com",
-    github: "https://github.com/username/project1",
+    title: "Document Reminders",
+    description: "Add reminders and comments to your ggogle drive docs",
+    tags: ["Nextjs", "OAuth"],
+    link: "https://casesrem.vercel.app",
+    github: "https://github.com/AubreyAmoah/doc_commenter",
   },
   {
-    title: "Project 2",
-    description: "Mobile-first e-commerce platform",
-    tags: ["Next.js", "Tailwind", "PostgreSQL"],
-    link: "https://project2.com",
-    github: "https://github.com/username/project2",
+    title: "Ecomerce site",
+    description: "A web application built with Next js",
+    tags: ["Nextjs"],
+    link: "https://penastore.vercel.app",
+    github: "https://github.com/AubreyAmoah/pena_store",
+  },
+  {
+    title: "Business Locator",
+    description: "A responsive web app for finding businesses near you",
+    tags: ["Next.js", "Tailwind", "Mongo DB", "Node Js", "Rest API"],
+    link: "https://elitestrategiesgh.com/business",
+    github: "https://github.com/AubreyAmoah/elitestrategies",
+  },
+  {
+    title: "Facial Recognition Attendance App",
+    description: "A web application for facial recognition.",
+    tags: ["Next Js", "Tensoflow Js", "MongoDB"],
+    link: "https://presentsir.vercel.app",
+    github: "https://github.com/AubreyAmoah/attendance-system-presentsir-",
+  },
+  {
+    title: "Voice Calculator",
+    description: "A voice recognition calculator",
+    tags: ["Javascript", "Web Speech API", "HTML"],
+    link: "https://mymaat.netlify.app",
+    github: "https://github.com/AubreyAmoah/maat",
+  },
+  {
+    title: "Authentication API",
+    description: "A rest API for user authentication",
+    tags: ["Node js", "Express", "JWT"],
+    link: "#",
+    github: "https://github.com/AubreyAmoah/Authorization",
   },
 ];
 
