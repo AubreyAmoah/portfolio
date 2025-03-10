@@ -245,7 +245,7 @@ const Portfolio = () => {
           <Button
             onClick={() =>
               (window.location.href =
-                "https://drive.google.com/file/d/1c69VrD5uITxJrN5RPD9UvZ5uSINFTERk/view?usp=drive_link")
+                "https://docs.google.com/document/d/1Le4HU_Xmktn6IxfWDP5kxCfhoSzXTBT74nN64Lsvoj0/edit?usp=sharing")
             }
             variant="outline"
           >
