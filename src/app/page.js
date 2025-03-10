@@ -21,13 +21,6 @@ import {
 
 const projects = [
   {
-    title: "Document Reminders",
-    description: "Add reminders and comments to your ggogle drive docs",
-    tags: ["Nextjs", "OAuth"],
-    link: "https://casesrem.vercel.app",
-    github: "https://github.com/AubreyAmoah/doc_commenter",
-  },
-  {
     title: "Ecomerce site",
     description: "A web application built with Next js",
     tags: ["Nextjs"],
